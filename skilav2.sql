@@ -53,7 +53,7 @@ begin
     
     union all
     
-    select count(courseNumber) as "Numerið af Courses"
+    select count(courseNumber) as "CoursesNum"
     from Registration
     where studentID = SID;
     
