@@ -1,7 +1,1 @@
-delimiter $$
-drop procedure if exists ElectedCourses $$
-create procedure ElectedCourses()
-begin
 
-end ;
-delimiter ;
