@@ -22,8 +22,6 @@ values('GSF2A3U','GSF2A3U',1);
 select * from Restrictors;
 select * from villuboð;
 
--- 2:
--- Skrifið samskonar trigger fyrir update Restrictors skipunina.
 delimiter $$
 drop trigger if exists UpdateRestrictors $$
 create trigger UpdateRestrictors
